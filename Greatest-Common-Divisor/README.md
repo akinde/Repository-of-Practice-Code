@@ -1,0 +1,16 @@
+<div class="markdown-content" id="problem-content">
+<p>Given 2 non negative integers <code class="highlighter-rouge">m</code> and <code class="highlighter-rouge">n</code>, find <code class="highlighter-rouge">gcd(m, n)</code></p>
+<p>GCD of 2 integers m and n is defined as the greatest integer g such that g is a divisor of both m and n.<br/>
+Both <code class="highlighter-rouge">m</code> and <code class="highlighter-rouge">n</code> fit in a 32 bit signed integer.</p>
+<p><strong>Example</strong></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>m : 6
+n : 9
+
+GCD(m, n) : 3 
+</code></pre>
+</div>
+<blockquote>
+<p><strong>NOTE :</strong> DO NOT USE LIBRARY FUNCTIONS</p>
+</blockquote>
+
+</div>
