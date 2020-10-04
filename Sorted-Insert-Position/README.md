@@ -1,3 +1,0 @@
-<div class="markdown-content" id="problem-content">
-<p><strong>Problem Description</strong><br/><div id="problem_description_markdown_content_value" style="background-color: #f9f9f9; padding: 5px 10px; "><p>Given a sorted array <strong>A</strong> and a target value <strong>B</strong>, return the index if the target is found. If not, return the index where it would be if it were inserted in order.</p></div></p>
-<p>You may assume no duplicates in the array.</p></div>
