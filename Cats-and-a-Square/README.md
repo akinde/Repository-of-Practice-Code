@@ -1,0 +1,4 @@
+<div class="markdown-content" id="problem-content">
+<p>Suppose that there is a unit square. There are four cats sitting at the four different corners of the square. Each of those cats start chasing the other cat in the clockwise direction. The speed of the cats are same and constant and they continuously change their direction in a manner that they are always heading straight to the other cat. How long will it take for the cats to catch each other?</p>
+<p>Assume that each cat is running at 1 unit speed.</p>
+</div>
