@@ -1,0 +1,11 @@
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\obj\Debug\netcoreapp3.0\100-People-in-a-Circle.csprojAssemblyReference.cache
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\obj\Debug\netcoreapp3.0\100-People-in-a-Circle.AssemblyInfoInputs.cache
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\obj\Debug\netcoreapp3.0\100-People-in-a-Circle.AssemblyInfo.cs
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\bin\Debug\netcoreapp3.0\100-People-in-a-Circle.exe
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\bin\Debug\netcoreapp3.0\100-People-in-a-Circle.deps.json
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\bin\Debug\netcoreapp3.0\100-People-in-a-Circle.runtimeconfig.json
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\bin\Debug\netcoreapp3.0\100-People-in-a-Circle.runtimeconfig.dev.json
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\bin\Debug\netcoreapp3.0\100-People-in-a-Circle.dll
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\bin\Debug\netcoreapp3.0\100-People-in-a-Circle.pdb
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\obj\Debug\netcoreapp3.0\100-People-in-a-Circle.dll
+C:\Personal_Projects\Repository-of-Practice-Code\100-People-in-a-Circle\obj\Debug\netcoreapp3.0\100-People-in-a-Circle.pdb
