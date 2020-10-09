@@ -1,0 +1,13 @@
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\bin\Debug\netcoreapp3.1\2-Sum.exe
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\bin\Debug\netcoreapp3.1\2-Sum.deps.json
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\bin\Debug\netcoreapp3.1\2-Sum.runtimeconfig.json
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\bin\Debug\netcoreapp3.1\2-Sum.runtimeconfig.dev.json
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\bin\Debug\netcoreapp3.1\2-Sum.dll
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\bin\Debug\netcoreapp3.1\2-Sum.pdb
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\obj\Debug\netcoreapp3.1\2-Sum.csprojAssemblyReference.cache
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\obj\Debug\netcoreapp3.1\2-Sum.AssemblyInfoInputs.cache
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\obj\Debug\netcoreapp3.1\2-Sum.AssemblyInfo.cs
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\obj\Debug\netcoreapp3.1\2-Sum.csproj.CoreCompileInputs.cache
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\obj\Debug\netcoreapp3.1\2-Sum.dll
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\obj\Debug\netcoreapp3.1\2-Sum.pdb
+C:\3D School Projects\Repository-of-Practice-Code\2-Sum\obj\Debug\netcoreapp3.1\2-Sum.genruntimeconfig.cache
