@@ -7,6 +7,7 @@ namespace _2_Sum
     {
         public static bool verbosity = true;
         public static List<int> input = new List<int>();
+        public static Dictionary<int, int> hashtable = new Dictionary<int, int>();
         public static int target;
         public static Stopwatch sw =  new Stopwatch();
         public static int compliment;
@@ -16,7 +17,7 @@ namespace _2_Sum
         static void Main(string[] args)
         {
             target = rand.Next(1, 11);
-            for(int k = 0; k < 10; k++){
+            for(int k = 0; k < 1000000; k++){
                 input.Add(rand.Next(1, 11));
             }
             Console.WriteLine("Target: {0}\nList: [{1}]\n", target, String.Join(",",input));
@@ -27,22 +28,25 @@ namespace _2_Sum
             timeElapsedinSeconds = sw.Elapsed.TotalMilliseconds;
             sw.Reset();
             printResults();
+            ij[0] = ij[1] = -1;
+            Console.WriteLine("\nOptimal Method - Time Complexity = O(n)\n");
+            sw.Start();
+            OptimalApproachOLinear();
+            sw.Stop();
+            timeElapsedinSeconds = sw.Elapsed.TotalMilliseconds;
+            printResults();
             Console.ReadLine(); 
         }
 
         static void BruteForceONSquared(){
             for(int i = 0; i < 10; i++){
                 for(int j = 0; j < 10; j++){
-                    if(input[i] + input[j] == target && i != j){
+                    if(input[i] + input[j] == target){
                         ij[0] = i;
                         ij[1] = j;
+                        return;
                     }
                 }
-            }
-            if(ij[0] > ij[1]){
-               int temp = ij[0];
-               ij[0] = ij[1];
-               ij[1] = temp; 
             }
         }
 
@@ -58,7 +62,17 @@ namespace _2_Sum
         }
 
         static void OptimalApproachOLinear(){
-
+            //Run throuhg it once and construct a hash table, then access the elements in constant time by calculating the compliment.
+            for(int i = 0; i < input.Count; i++){
+                compliment = target - input[i];
+                if(hashtable.ContainsKey(compliment)){
+                    ij[0] = hashtable[compliment]; ij[1] = i;
+                    return;
+                }
+                else{
+                    hashtable[input[i]] = i;
+                }
+            }
         }
     }
 }
