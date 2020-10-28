@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using _2Sum_Binary_Tree.util;
 /* Given a binary search tree T, where each node contains a positive integer, and an 
 integer K, you have to find whether or not there exist two different nodes A and B 
 such that A.value + B.value = K.
@@ -8,43 +9,11 @@ such that A.value + B.value = K.
 Return 1 to denote that two such nodes exist. Return 0, otherwise.*/
 namespace _2Sum_Binary_Tree
 {
-    public class node  
-    { 
-        public int data; 
-        public node left; 
-        public node right; 
-        public node(int data) 
-        { 
-            this.data = data; 
-            left = null; 
-            right = null; 
-        }
-        public void Add(node root, node addition){
-            if(addition.data < root.data){
-                if(root.left == null){
-                    root.left = addition;
-                    return;
-                }
-                else{
-                    Add(root.left, addition);
-                }
-            }
-            if(addition.data > root.data){
-                if(root.right == null){
-                    root.right = addition;
-                    return;
-                }
-                else{
-                    Add(root.right, addition);
-                }
-            }
-            
-        }
-    }; 
     class _2Sum_Binary_Tree
     {
         static Random rand = new Random();
         static List<int> bst = new List<int>();
+        static node root;
         static int size;
         static int forIndex;
         static int range;
@@ -67,7 +36,14 @@ namespace _2Sum_Binary_Tree
             }
             //The largest sum we will ever get is two values that have the highest value.
             target = rand.Next(100);
-            Console.WriteLine("Size = {0}, List = {1}", size, String.Join(", ", bst.ToArray()));
+            Console.WriteLine("Target = {0}, Size = {1}, List = {2}", target, size, String.Join(", ", bst.ToArray()));
+            Console.WriteLine("---");
+            root = new node(bst[0]);
+            for(int i = 1; i < bst.Count(); i++){
+                root.Add(new node(bst[i]));
+            }
+            Console.WriteLine("Is there a pair? {0}", SumPair(root, target));
+            root.PrintPretty("", NodePosition.center, true, false);
         }
         static bool SumPair(node root, int target){
             //Reverse and forward iterator
@@ -111,7 +87,7 @@ namespace _2Sum_Binary_Tree
                 //If the sum of the values are greater than the target, pop current value and then check subtree.
                 else{
                     //Look at left node
-                    current = forward.Peek().left;
+                    current = reverse.Peek().left;
                     //Pop previous value off stack.
                     reverse.Pop();
                     //If we are not on a leaf node, traverse down right subtree. Else, we are on leaf node.
